@@ -1,0 +1,32 @@
+<?page title="Auto Generated index.zul"?>
+<zk xmlns:h="xhtml">
+	<h:link href="vendor/fontawesome-free/css/all.min.css"
+		rel="stylesheet" type="text/css" />
+	<h:link href="vendor/custom-font/css/custom-font.css"
+		rel="stylesheet" type="text/css" />
+	<!-- Nucleo Icons -->
+	<h:link href="vendor/nucleo/css/nucleo-icons.css" rel="stylesheet" />
+	<!-- Page level plugin CSS -->
+	<h:link href="vendor/datatables/dataTables.bootstrap4.css"
+		rel="stylesheet" />
+	<!-- Custom styles for this template -->
+	<h:link href="css/animate.css" rel="stylesheet" />
+	<h:link href="css/dashboard.css" rel="stylesheet" />
+
+	<window border="normal" width="100%" height="100%" apply="">
+	
+		<borderlayout>
+			<north>
+				<div>
+					<button id="btnSignUp" label="註冊" width="100px"></button>
+					<button id="btnSignIn" label="登入" width="100px"></button>
+				</div>
+			</north>
+
+			<west width="150px"></west> 
+
+			<center id="center"></center>
+		</borderlayout>
+		
+	</window>
+</zk>
