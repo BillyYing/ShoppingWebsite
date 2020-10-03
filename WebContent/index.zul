@@ -16,7 +16,7 @@
 				<div>
 					<button id="btnSignUp" label="註冊" width="100px"></button>
 					<button id="btnSignIn" label="登入" width="100px"></button>
-					<!--  git 測試-->
+					<!--  git 測試2-->
 				</div>
 			</north>
 
